@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">jng1-SubBook</string>
+    <string name="subscription_string">Subscription</string>
+    <string name="date_string">Date</string>
+    <string name="monthly_cost_string">Monthly Cost</string>
+    <string name="comments_string">Comments</string>
 </resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/subscription_string"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/date_string"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/editCost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/monthly_cost_string"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editComment"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="@string/comments_string"
+        android:inputType="textMultiLine" />
+</LinearLayout>
